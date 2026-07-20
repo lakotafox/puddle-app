@@ -38,9 +38,6 @@ export default function PuddleLanding() {
                 <a href="#benefits" className="text-white hover:text-blue-400 transition-colors">
                   Benefits
                 </a>
-                <a href="#pricing" className="text-white hover:text-blue-400 transition-colors">
-                  Pricing
-                </a>
               </div>
             </div>
 
@@ -83,9 +80,6 @@ export default function PuddleLanding() {
                 </a>
                 <a href="#benefits" className="block px-3 py-2 text-white hover:text-blue-400">
                   Benefits
-                </a>
-                <a href="#pricing" className="block px-3 py-2 text-white hover:text-blue-400">
-                  Pricing
                 </a>
                 <SignedOut>
                   <Link href="/sign-in" className="block px-3 py-2 text-white hover:text-blue-400">

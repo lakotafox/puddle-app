@@ -5,21 +5,9 @@ import { UserButton } from "@clerk/nextjs"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import {
-  Home,
-  Clock,
-  Building2,
-  Settings,
-  Menu,
-  X,
-  ChevronLeft,
-} from "lucide-react"
+import { Home, Menu, X, ChevronLeft } from "lucide-react"
 
-const navItems = [
-  { href: "/dashboard", label: "Banking", icon: Building2 },
-  { href: "/dashboard/wages", label: "Wage Streaming", icon: Clock },
-  { href: "/dashboard/settings", label: "Settings", icon: Settings },
-]
+const navItems = [{ href: "/dashboard", label: "Dashboard", icon: Home }]
 
 export default function DashboardLayout({
   children,
