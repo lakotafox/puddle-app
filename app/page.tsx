@@ -278,7 +278,7 @@ export default function PuddleLanding() {
               <div className="text-2xl font-bold text-blue-400">PUDDL3</div>
               <p className="text-sm text-gray-400">The future of payroll is real-time</p>
             </div>
-            <p className="text-sm text-gray-400">&copy; 2025 Puddle. All rights reserved.</p>
+            <p className="text-sm text-gray-400">&copy; 2026 Puddle. All rights reserved.</p>
           </div>
         </div>
       </footer>
